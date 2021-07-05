@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+    list-style-type: none;
+    
+}
+ul > a{
+    padding: 0 8px;
+}
+
+a{
+    text-decoration: none;
+    margin: 5px;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#apps:hover, #signin:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+    border-radius: 20px;
+    
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+#search{
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    
+}
+
+#search:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+.signin{
+   
+}
+button{
+    cursor: pointer;
+}
+.search{
+    cursor: pointer;
+}
+.googlepic{
+    
+
+}
+.material-icons{
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.twobuttons{
+    padding-top: 53px;
+}
+
+input[type=button] {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+input[type=button]:hover{
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+footer{
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    opacity: 0.80;
+
+}
+
+.footer-left{
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    align-items: center;
+   
+    
+}
+.footer-right{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    align-items: center;
+  
+
+}
+
+.Australia{
+    display: flex;
+    justify-content:start;
+    position;
+    background-color: #f2f2f2;
+    margin-top: 15rem;
+    padding: 0 0 0 34px;
+    opacity: 0.80;
+}
